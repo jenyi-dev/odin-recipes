@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Project: Recipes</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/rhubarbpie.html" target="_self" rel="noopener noreferrer">Fresh Rhubarb Pie</a>
-    <p>
-        <img src="https://www.31daily.com/wp-content/uploads/2021/04/md_Rhubarb-Pie-9-1-of-1-scaled.jpg" 
-        alt="A slice of rhubarb pie with ice cream on top, served on a plate with a fork."
-        width="150">
-    </p>
-    
-    <a href="recipes/piecrust.html" target="_self" rel="noopener noreferrer">Buttery Pie Crust</a>
-    <p>
-        <img src="https://images.101cookbooks.com/pie-crust-recipe-h.jpg?w=1200&auto=compress&auto=format"
-        alt="An image of a golden-brown baked pie crust in a glass dish."
-        width="150">
-    </p>
-    
-    <a href="recipes/chickenpotpie.html">Chicken Pot Pie</a>
-    <p>
-        <img src="https://images-gmi-pmc.edge-generalmills.com/1dc0506e-8ac3-49eb-b05c-04f413a0f101.jpg"
-        alt="A top-down view of a chicken pot pie with a small opening exposing the filling inside of the pie with a utensil inside the filling."
-        width="150">
-    </p>
+    <div>
+        <h1>The Best Pies</h1>
+        <img class="main" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXBhenk1M3gwazN0aWs5ejhjeG10b3JjbmdsMXc2aTB3Y2I0ZHEyNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zJL1Av8MrnscIMoagY/giphy.gif" alt="Gif of a pie">
+    </div>
+<br>
+    <div class="container" id="container">
+        <div class="recipe-card">
+            <div class="recipe-content">
+                <h2>Rhubarb Pie</h2>
+                <img 
+                    src="https://www.31daily.com/wp-content/uploads/2021/04/md_Rhubarb-Pie-9-1-of-1-scaled.jpg"
+                    alt="A slice of rhubarb pie.">
+                <p><button class="button" href="recipes/rhubarbpie.html" target="_self" rel="noopener noreferrer">Bake It!</button></p>
+            </div>
+            <br>
+            <div class="recipe-content">
+                <h2>Buttery Pie Crust</h2>
+                <img
+                src="https://images.101cookbooks.com/pie-crust-recipe-h.jpg?w=1200&auto=compress&auto=format"
+                alt="A pie crust.">
+                <p><button class="button" href="recipes/piecrust.html" target="_self" rel="noopener noreferrer">Bake It!</button></p>
+            </div>
+            <br>
+            <div class="recipe-content">
+                <h2>Chicken Pot Pie</h2>
+                <img
+                src="https://images-gmi-pmc.edge-generalmills.com/1dc0506e-8ac3-49eb-b05c-04f413a0f101.jpg"
+                alt="A chicken pot pie.">
+                <p><button class="button" href="recipes/chickenpotpie.html">Bake It!</button></p>
+            </div>
+        </div>
+    </div>
     </body>
 </html>
